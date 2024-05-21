@@ -2,7 +2,8 @@
 #include <string>
 using namespace std;
 
-class orang {
+class orang 
+{
 public:
    string nama;
 
@@ -18,7 +19,8 @@ public:
    }
 };
 
-class pelajar : public orang {
+class pelajar : public orang 
+{
 public:
    string sekolah;
 
@@ -32,3 +34,12 @@ public:
        return "Hallo, nama saya " + nama + " dari sekolah " + sekolah + "\n";
    }
 };
+
+int main() 
+{
+   pelajar siswa("andi laksono", "SMAN 1 Bantul");
+   cout << siswa.perkenalan();
+   cout << "Hasil = " << siswa.jumlah(10, 90) << endl;
+
+   return 0;
+}
