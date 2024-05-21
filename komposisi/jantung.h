@@ -1,7 +1,7 @@
 #ifndef JANTUNG_H
 #define JANTUNG_H
 
-using namespace std;
+//using namespace std; ini tidak perlu
 
 class jantung
 {
